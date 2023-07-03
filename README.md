@@ -3,7 +3,7 @@
 # Code Portfolio – Example apps
 
 - [About](#about)
-- [Use](#use)
+- [Use](#how-to-use)
 - [Notes](#notes)
 
 ---
