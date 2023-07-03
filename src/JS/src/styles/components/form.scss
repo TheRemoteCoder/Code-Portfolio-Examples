@@ -1,0 +1,18 @@
+.form-floating > .form-control:not(:placeholder-shown) ~ label {
+  opacity: 1;
+}
+
+/* Increase height, keep original formula */
+textarea.form-control {
+  --rows: 7;
+  --height: calc(1.5em * var(--rows));
+
+  min-height: calc(var(--height) + 0.75rem + 2px);
+
+  @include media-breakpoint-up(lg) {
+    --rows: 9;
+    --height: calc(1.5em * var(--rows));
+
+    min-height: calc(var(--height) + 0.75rem + 2px);
+  }
+}

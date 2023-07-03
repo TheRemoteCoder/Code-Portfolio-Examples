@@ -1,0 +1,5 @@
+@include x-selection-text-colors(false);
+
+a[target='_blank']::after {
+  content: '↗';
+}

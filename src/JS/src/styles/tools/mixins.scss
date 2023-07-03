@@ -1,0 +1,23 @@
+@mixin x-selection-text-colors($append) {
+  @if $append {
+    &::-moz-selection {
+      color: $white;
+      background: $primary;
+    }
+
+    &::selection {
+      color: $white;
+      background: $primary;
+    }
+  } @else {
+    ::-moz-selection {
+      color: $white;
+      background: $primary;
+    }
+
+    ::selection {
+      color: $white;
+      background: $primary;
+    }
+  }
+}

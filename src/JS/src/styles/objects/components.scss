@@ -1,0 +1,10 @@
+.x-o-component {
+  display: block;
+  opacity: 1;
+  transition: opacity 0.125s ease-out;
+  height: auto;
+}
+
+.x-o-component:not(:defined) {
+  opacity: 0;
+}

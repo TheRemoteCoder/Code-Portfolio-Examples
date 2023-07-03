@@ -1,0 +1,12 @@
+[data-bs-toggle='collapse']::before {
+  content: '-';
+  width: 0.75rem;
+  display: inline-block;
+}
+
+[data-bs-toggle='collapse'][aria-expanded='false']::before,
+[data-bs-toggle='collapse'].collapsed::before {
+  content: '+';
+  width: 0.75rem;
+  display: inline-block;
+}

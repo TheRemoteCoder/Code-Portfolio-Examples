@@ -1,0 +1,23 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "flowtype.flow-for-vscode",
+    "mkaufman.htmlhint",
+    "stylelint.vscode-stylelint",
+    "christian-kohler.path-intellisense",
+    "alefragnani.bookmarks",
+    "bmewburn.vscode-intelephense-client",
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "johnbillion.vscode-wordpress-hooks",
+    "mehedidracula.php-namespace-resolver",
+    "stylelint.vscode-stylelint",
+    "valeryanm.vscode-phpsab",
+    "eamodio.gitlens",
+    "huizhou.githd",
+    "mhutchie.git-graph",
+  ]
+}

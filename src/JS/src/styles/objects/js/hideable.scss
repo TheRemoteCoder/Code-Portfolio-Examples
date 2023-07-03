@@ -1,0 +1,11 @@
+[data-x-show='0'] {
+  display: none;
+}
+
+/**
+ * Hide element if attribute exists:
+ * Dynamic text replacement must remove this.
+ */
+[data-x-text] {
+  display: none;
+}

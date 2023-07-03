@@ -1,0 +1,32 @@
+/**
+ * ITCSS architecture
+ */
+
+/* ------------------------------------------------------------------------------------ Variables */
+
+@import 'settings/colors';
+
+/* --------------------------------------------------------------------------------------- Vendor */
+
+@import '~bootstrap/scss/bootstrap';
+@import '~shepherd.js/dist/css/shepherd';
+
+/* ------------------------------------------------------------------------------------------ App */
+
+@import 'tools/mixins';
+
+@import 'elements/text';
+
+@import 'objects/js/animations';
+@import 'objects/js/collapse';
+@import 'objects/js/hideable';
+@import 'objects/utilities/hyphen';
+@import 'objects/utilities/info';
+@import 'objects/utilities/list';
+@import 'objects/utilities/text';
+@import 'objects/utilities/toggle';
+@import 'objects/components';
+
+@import 'components/views/modal-example';
+@import 'components/form';
+@import 'components/modal';

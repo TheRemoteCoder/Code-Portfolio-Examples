@@ -1,0 +1,41 @@
+/**
+ * UX/UI use cases
+ * - Fade  : Visualizes otherwise invisible UI changes (e.g. Ajax loads)
+ * - Delay : Fixes unwanted Bootstrap link colors on page load ('FOUC')
+ */
+
+.x-a-fade {
+  animation: fadeOpacity 1.25s ease-in forwards;
+}
+
+.x-a-show-delayed {
+  animation: showDelayed 0.75s ease-in forwards;
+}
+
+@keyframes fadeOpacity {
+  0% {
+    opacity: 0;
+    display: none;
+  }
+  1% {
+    display: block;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes showDelayed {
+  0% {
+    opacity: 0;
+    display: none;
+  }
+  75% {
+    opacity: 0;
+    display: none;
+  }
+  100% {
+    display: block;
+    opacity: 1;
+  }
+}

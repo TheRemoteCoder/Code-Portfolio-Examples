@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "cs-check": "phpcs",
+    "cs-fix": "phpcbf",
+    "test": "phpunit --testdox --colors=auto",
+    "test:group": "phpunit --testdox --colors=auto --group",
+    "test:coverage": "phpunit --coverage-clover clover.xml",
+    "checkfix": [
+      "@cs-check",
+      "@cs-fix"
+    ]
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  },
+  "require-dev": {
+    "dealerdirect/phpcodesniffer-composer-installer": "^XXX",
+    "roave/security-advisories": "dev-master",
+    "opsway/psr12-strict-coding-standard": "^XXX",
+    "phpunit/phpunit": "^XXX",
+    "zalas/phpunit-globals": "^XXX",
+    "squizlabs/php_codesniffer": "^XXX"
+  }
+}

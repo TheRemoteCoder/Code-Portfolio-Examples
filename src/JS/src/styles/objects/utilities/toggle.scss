@@ -1,0 +1,12 @@
+.x-u-toggle {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  &:focus,
+  &:hover {
+    color: $primary;
+  }
+}

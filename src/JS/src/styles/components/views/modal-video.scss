@@ -1,0 +1,10 @@
+.example {
+  example {
+    display: block;
+    width: auto;
+    max-width: 100%;
+
+    // 3rem ^= ca. size of modal top/bottom part
+    height: calc(70vmin - 3rem);
+  }
+}
